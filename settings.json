@@ -1,0 +1,54 @@
+{
+  "icon_theme": "Catppuccin Frappé",
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry"
+    }
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "buffer_line_height": "comfortable",
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "Ayu Dark"
+  },
+
+  // Feel
+  "cursor_blink": false,
+  "indent_guides": { "coloring": "indent_aware" },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+    "show_diagnostics": "errors"
+  },
+  "project_panel": { "dock": "right" },
+  "git_panel": { "dock": "right" },
+
+  // Glass look for Ayu Dark
+  "theme_overrides": {
+    "Ayu Dark": {
+      "background.appearance": "blurred",
+      "background": "#0b0e14cc",
+
+      "editor.background": "#00000000",
+      "editor.gutter.background": "#00000000",
+      "editor.active_line.background": "#ffffff08",
+
+      "panel.background": "#00000000",
+      "toolbar.background": "#00000000",
+      "terminal.background": "#00000000",
+      "tab_bar.background": "#00000000",
+      "tab.inactive_background": "#00000000",
+      "tab.active_background": "#ffffff0d",
+      "title_bar.background": "#00000000",
+      "title_bar.inactive_background": "#00000000",
+      "status_bar.background": "#00000000",
+
+      "surface.background": "#0b0e14b3",
+      "elevated_surface.background": "#0b0e14f2",
+      "border": "#ffffff10",
+      "border.variant": "#ffffff0a"
+    }
+  }
+}
