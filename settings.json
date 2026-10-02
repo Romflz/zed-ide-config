@@ -25,6 +25,17 @@
   "project_panel": { "dock": "right" },
   "git_panel": { "dock": "right" },
 
+  // Tailwind-aware CSS server, so @theme / @apply / @layer aren't flagged
+  "languages": {
+    "CSS": {
+      "language_servers": [
+        "tailwindcss-intellisense-css",
+        "!vscode-css-language-server",
+        "..."
+      ]
+    }
+  },
+
   // Glass look for Ayu Dark
   "theme_overrides": {
     "Ayu Dark": {
